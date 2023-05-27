@@ -26,31 +26,31 @@ public class Cargos {
 	    	
 	        break;
 	    case 2:
-	    	novoSalario = Salario + (0.7f * Salario);
+	    	novoSalario = Salario + (0.07f * Salario);
 
 	    	System.out.println("Parabéns,"+nomeColaborador+"\n seu atual salário é de "+novoSalario +"\n referente ao seu cargo de Vendedor:");
 	       
 	        break;
 	    case 3:
-	    	novoSalario = Salario + (0.9f * Salario);
+	    	novoSalario = Salario + (0.09f * Salario);
 
 	    	System.out.println("Parabéns,"+nomeColaborador+"\n seu atual salário é de "+novoSalario +" referente ao seu cargo de Supervisor ");
 	    	
 	        
 	        break;
 	        case 4:
-	        	novoSalario = Salario + (0.6f * Salario);
+	        	novoSalario = Salario + (0.06f * Salario);
 
 		    	System.out.println("Parabéns,"+nomeColaborador+"\n seu atual salário de "+novoSalario +" referente ao seu cargo de Motorista" );
 		        
 	            break;
 	        case 5:
-	        	novoSalario = Salario + (0.5f * Salario);
+	        	novoSalario = Salario + (0.05f * Salario);
 
 		    	System.out.println("Parabéns,"+nomeColaborador+"\n seu atual salário de "+novoSalario +" referente ao seu cargo de Estoquista");
 	            break;
 	        case 6:
-	        	novoSalario = Salario + (0.8f * Salario);
+	        	novoSalario = Salario + (0.08f * Salario);
 
 		    	System.out.println("Parabéns,"+nomeColaborador+"\n seu cargo de "+novoSalario +" referente ao seu cargo de Técnico de TI");
 	            break;
